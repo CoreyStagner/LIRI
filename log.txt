@@ -13,3 +13,18 @@ Critic Ratings for Cinderella:
 
 To learn more about this film you can visit 
   http://movies.disney.com/cinderella/
+-------- Log Entry --------
+Sat Jul 29 2017 22:29:32 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for Cinderella and here is what I have found:
+Cinderella (PG) was released in 2015.
+This movie was released in USA, UK in English and featured Cate Blanchett, Lily James, Richard Madden, Helena Bonham Carter.
+A quick plot of the film is:
+  When her father unexpectedly passes away, young Ella finds herself at the mercy of her cruel stepmother and her scheming step-sisters. Never one to give up hope, Ella's fortunes begin to change after meeting a dashing stranger.
+
+Critic Ratings for Cinderella:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://movies.disney.com/cinderella/

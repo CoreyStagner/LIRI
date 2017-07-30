@@ -63,6 +63,10 @@ terminal:
 
 liri.js <ACTION> <ARGUMENTS>
 
+IMPORTANT ---- If you pass in an any arguments that have multple words (eg. Bad Blood or Shawshank 
+Redemption) surround them with quotations (eg. "Bad Blood" or "Shawshank Redemption"). Otherwise
+on the first word will be searched (eg. Bad or Shawshank)
+
 The <ACTION> is what you need it to do, and the <ARGUMENTS> are the parameters that you need to 
 pass to LIRI to get what you are looking for. The <ARGUMENTS> will change determine on what you are
 looking for.
@@ -75,6 +79,10 @@ node liri.js get-tweets
 node liri.js spotify-this-song "Galway Girl"
   This will return the song titled Galway Girl and will also give the artist, album, and a URL that
   will give you a 30 second preview of the song.
+
+node liri.js movie-this Cinderella
+  This will return a movie with the title Cinderella and give you a quick synopsis of the movie and 
+  a link where there to find out more information about the movie.
 `); // end template string
 } // end help()
 
