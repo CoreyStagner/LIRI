@@ -148,8 +148,8 @@ You can listen to ${song} here - ${url}`);
 
 function getMovie(input){
   fs.appendFile("log.txt", ("-------- Log Entry --------\n" + Date() + "\n" + "User used getMovie()\n"));
-  var requestedMovie = input;
-  request(`http://www.omdbapi.com/?t=${requestedMovie}&y=&plot=short&apikey=40e9cece`, function(err, response, body) {
+  var movie = input;
+  request(`http://www.omdbapi.com/?t=${movie}&y=&plot=short&apikey=40e9cece`, function(err, response, body) {
     if (!err && response.statusCode === 200) {
       var data = JSON.parse(body);
       var title = data.Title;
@@ -162,7 +162,7 @@ function getMovie(input){
       var plot = data.Plot;
       var actors = data.Actors;
       var url = data.Website;
-      log(`You have searched for ${requestedMovie} and here is what I have found:
+      log(`You have searched for ${movie} and here is what I have found:
 ${title} (${rated}) was released in ${year}.
 This movie was released in ${country} in ${language} and featured ${actors}.
 A quick plot of the film is:

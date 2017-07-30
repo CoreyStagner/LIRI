@@ -28,3 +28,51 @@ Critic Ratings for Cinderella:
 
 To learn more about this film you can visit 
   http://movies.disney.com/cinderella/
+-------- Log Entry --------
+Sun Jul 30 2017 09:54:18 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for gravity and here is what I have found:
+Gravity (PG-13) was released in 2013.
+This movie was released in UK, USA in English, Greenlandic and featured Sandra Bullock, George Clooney, Ed Harris, Orto Ignatiussen.
+A quick plot of the film is:
+  Two astronauts work together to survive after an accident which leaves them alone in space.
+
+Critic Ratings for Gravity:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://gravitymovie.warnerbros.com/
+-------- Log Entry --------
+Sun Jul 30 2017 09:54:49 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+-------- Log Entry --------
+Sun Jul 30 2017 09:55:05 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for home and here is what I have found:
+Home (PG) was released in 2015.
+This movie was released in USA in English, French and featured Jim Parsons, Rihanna, Steve Martin, Jennifer Lopez.
+A quick plot of the film is:
+  An alien on the run from his own people makes friends with a girl. He tries to help her on her quest, but can be an interference.
+
+Critic Ratings for Home:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://www.meettheboov.com/
+-------- Log Entry --------
+Sun Jul 30 2017 09:56:10 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for home and here is what I have found:
+Home (PG) was released in 2015.
+This movie was released in USA in English, French and featured Jim Parsons, Rihanna, Steve Martin, Jennifer Lopez.
+A quick plot of the film is:
+  An alien on the run from his own people makes friends with a girl. He tries to help her on her quest, but can be an interference.
+
+Critic Ratings for Home:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://www.meettheboov.com/
