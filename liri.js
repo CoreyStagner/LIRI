@@ -93,6 +93,16 @@ Welcome to LIRI bot
 Version 1.0.0
   -by Corey Stagner
 
+
+   ÛÛÛÛÛÛÛÛÛ   ÛÛÛÛÛÛÛÛÛ      ÛÛÛÛÛÛÛÛÛÛ                       
+  ÛÛÛ°°°°°ÛÛÛ ÛÛÛ°°°°°ÛÛÛ    °°ÛÛÛ°°°°ÛÛÛ                      
+ ÛÛÛ     °°° °ÛÛÛ    °°°      °ÛÛÛ   °°ÛÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛ ÛÛÛÛÛ
+°ÛÛÛ         °°ÛÛÛÛÛÛÛÛÛ      °ÛÛÛ    °ÛÛÛ ÛÛÛ°°ÛÛÛ°°ÛÛÛ °°ÛÛÛ 
+°ÛÛÛ          °°°°°°°°ÛÛÛ     °ÛÛÛ    °ÛÛÛ°ÛÛÛÛÛÛÛ  °ÛÛÛ  °ÛÛÛ 
+°°ÛÛÛ     ÛÛÛ ÛÛÛ    °ÛÛÛ     °ÛÛÛ    ÛÛÛ °ÛÛÛ°°°   °°ÛÛÛ ÛÛÛ  
+ °°ÛÛÛÛÛÛÛÛÛ °°ÛÛÛÛÛÛÛÛÛ      ÛÛÛÛÛÛÛÛÛÛ  °°ÛÛÛÛÛÛ   °°ÛÛÛÛÛ   
+  °°°°°°°°°   °°°°°°°°°      °°°°°°°°°°    °°°°°°     °°°°°    
+
 `); // end template string
 } // end about()
 
@@ -149,6 +159,9 @@ You can listen to ${song} here - ${url}`);
 function getMovie(input){
   fs.appendFile("log.txt", ("-------- Log Entry --------\n" + Date() + "\n" + "User used getMovie()\n"));
   var movie = input;
+  if(movie === undefined){
+    movie = "Mr. Nobody";
+  }
   request(`http://www.omdbapi.com/?t=${movie}&y=&plot=short&apikey=40e9cece`, function(err, response, body) {
     if (!err && response.statusCode === 200) {
       var data = JSON.parse(body);

@@ -76,3 +76,74 @@ Critic Ratings for Home:
 
 To learn more about this film you can visit 
   http://www.meettheboov.com/
+-------- Log Entry --------
+Sun Jul 30 2017 10:00:29 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+-------- Log Entry --------
+Sun Jul 30 2017 10:00:40 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for HOme Alone and here is what I have found:
+Home Alone (PG) was released in 1990.
+This movie was released in USA in English and featured Macaulay Culkin, Joe Pesci, Daniel Stern, John Heard.
+A quick plot of the film is:
+  An eight-year-old trouble-maker must protect his home from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation.
+
+Critic Ratings for Home Alone:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://www.foxhome.com/homealone/index_frames.html
+-------- Log Entry --------
+Sun Jul 30 2017 10:01:33 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for HOme Alone and here is what I have found:
+Home Alone (PG) was released in 1990.
+This movie was released in USA in English and featured Macaulay Culkin, Joe Pesci, Daniel Stern, John Heard.
+A quick plot of the film is:
+  An eight-year-old trouble-maker must protect his home from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation.
+
+Critic Ratings for Home Alone:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://www.foxhome.com/homealone/index_frames.html
+-------- Log Entry --------
+Sun Jul 30 2017 10:01:47 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+-------- Log Entry --------
+Sun Jul 30 2017 10:02:11 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+HOme Alone
+-------- Log Entry --------
+Sun Jul 30 2017 10:02:20 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+undefined
+-------- Log Entry --------
+Sun Jul 30 2017 10:03:13 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+true
+-------- Log Entry --------
+Sun Jul 30 2017 10:04:25 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+true
+-------- Log Entry --------
+Sun Jul 30 2017 10:04:42 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+true
+-------- Log Entry --------
+Sun Jul 30 2017 10:04:49 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for Mr. Nobody and here is what I have found:
+Mr. Nobody (R) was released in 2009.
+This movie was released in Belgium, Germany, Canada, France, USA, UK in English, Mohawk and featured Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham.
+A quick plot of the film is:
+  A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+
+Critic Ratings for Mr. Nobody:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://www.magpictures.com/mrnobody/
