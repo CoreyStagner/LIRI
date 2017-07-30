@@ -702,3 +702,33 @@ You searched Spotify for: "Barbie Girl"
 The song "Barbie Girl" was performed by Aqua.
 Aqua released this song on the album "Aquarium".
 You can listen to "Barbie Girl" here - null
+-------- Log Entry --------
+Sun Jul 30 2017 15:19:37 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for cinderella and here is what I have found:
+Cinderella (PG) was released in 2015.
+This movie was released in USA, UK in English and featured Cate Blanchett, Lily James, Richard Madden, Helena Bonham Carter.
+A quick plot of the film is:
+  When her father unexpectedly passes away, young Ella finds herself at the mercy of her cruel stepmother and her scheming step-sisters. Never one to give up hope, Ella's fortunes begin to change after meeting a dashing stranger.
+
+Critic Ratings for Cinderella:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://movies.disney.com/cinderella/
+If I am wrong dont blame me, I have a guy and weather.service.msn.com. You may have heard of him, his name is Ehpeaeye.
+Anyways, he told me that in Tokyo, Japan, they checked the weather there at 04:00:00 and here is what they got.
+  The current weather is :
+       Temperature: 77
+          Humidity: 89
+      Current Wind: 6 mph Northeast
+-------- Log Entry --------
+Sun Jul 30 2017 15:51:12 GMT-0400 (Eastern Daylight Time)
+User used getWeather() searching tokyo tokyo japan
+If I am wrong dont blame me, I have a guy and weather.service.msn.com. You may have heard of him, his name is Ehpeaeye.
+  Anyways, he told me that in Tokyo, Japan, they checked the weather there at 04:00:00 and here is what they got.
+    The current weather is :
+         Temperature: 77
+            Humidity: 89
+        Current Wind: 6 mph Northeast

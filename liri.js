@@ -9,6 +9,7 @@ var keys = require("./keys.js");
 var Twitter = require("twitter");
 var Spotify = require("node-spotify-api");
 var request = require("request");
+var weather = require("weather-js");
 
 // Initialize Variables
 
@@ -18,9 +19,11 @@ var value = input[3];
 var feed = new Twitter(keys.twitterKeys);
 var userTwitter = "StagnerDev";
 var spotify = new Spotify(keys.spotifyKeys);
+for (var i = 3; i < input.length; i++) {
+  value = value + " " + input[i];
+}
 
-
-// 
+console.log(value);
 
 // Determine What LIRI is getting asked to do.
 
@@ -67,13 +70,20 @@ Here is how to use LIRI:
 When you run the liri.js file using the console. You just have to type the following into the
 terminal:
 
-liri.js <ACTION> <ARGUMENTS>
+node liri.js <ACTION> <ARGUMENTS>
+
+node liri.js my-tweets
+node liri.js spotify-this-song <ARGUMENTS>
+node liri.js movie-this <ARGUMENTS>
+node liri.js get-weather <ARGUMENTS>
+node liri.js count-to <ARGUMENTS>
+node liri.js do-what-it-says
 
 IMPORTANT ---- If you pass in an any arguments that have multple words (eg. Bad Blood or Shawshank 
 Redemption) surround them with quotations (eg. "Bad Blood" or "Shawshank Redemption"). Otherwise
 on the first word will be searched (eg. Bad or Shawshank)
 
-The <ACTION> is what you need it to do, and the <ARGUMENTS> are the parameters that you need to 
+The <ACTION> is what you need LIRI to do, and the <ARGUMENTS> are the parameters that you need to 
 pass to LIRI to get what you are looking for. The <ARGUMENTS> will change determine on what you are
 looking for.
 
@@ -198,7 +208,27 @@ To learn more about this film you can visit
 } // end getMovie()
 
 function getWeather(input){
-
+  fs.appendFile("log.txt", ("-------- Log Entry --------\n" + Date() + "\n" + "User used getWeather() searching " + input + "\n"));
+  var city = input;
+  weather.find({search: input, degreeType: "F"}, function(err, result){
+    if(err){
+      console.log(err);
+    } else {
+      var pretty = JSON.stringify(result, null, 2);
+      var data = result[0].current;
+      var temp = data.temperature;
+      var time = data.observationtime;
+      var city = data.observationpoint;
+      var wind = data.winddisplay;
+      var humidity = data.humidity;
+      log(`If I am wrong dont blame me, I have a guy and weather.service.msn.com. You may have heard of him, his name is Ehpeaeye.
+  Anyways, he told me that in ${city}, they checked the weather there at ${time} their time and here is what they got.
+    The current weather is :
+         Temperature: ${temp}
+            Humidity: ${humidity}
+        Current Wind: ${wind}`)
+    }// end if()
+  }); // end weather.find()
 } // end getWeather()
 
 function random(){
@@ -226,25 +256,9 @@ function random(){
       } else if(dataArr[keyRandom] === "weather-this"){
         getWeather(dataArr[valToKey]);
       } // end if/else()
-
-
-
     } // end if/else()
   }) // end fs.readFile
 } // end random()
-
-// function countTo(input){
-//   fs.appendFile("log.txt", ("-------- Log Entry --------\n" + Date() + "\n" + "User used countTo()\nHere I go..."));
-//   var target = parseInt(input);
-//   console.log(target);
-//   if(target > 0){
-//     for(i=0; i<target; i++){
-//       log("$"+i);
-//     } // end for()
-//   } else {
-//     log("Please enter a number above 0!")
-//   } // if if/else()
-// }
 
 function countTo(input){
   fs.appendFile("log.txt", ("-------- Log Entry --------\n" + Date() + "\n" + "User used countTo() to count up to " + input + "\nHere I go..."));
