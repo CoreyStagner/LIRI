@@ -147,3 +147,66 @@ Critic Ratings for Mr. Nobody:
 
 To learn more about this film you can visit 
   http://www.magpictures.com/mrnobody/
+spotify-this-song,"I Want it That Way"
+spotify-this-song,"I Want it That Way",
+movie-this,"Shawshank Redemption"
+spotify-this-song,"I Want it That Way",
+movie-this,"Shawshank Redemption"
+spotify-this-song,"I Want it That Way",movie-this,"Shawshank Redemption",spotify-this-song,"Barbie Girl"
+5
+undefined
+spotify-this-song,"I Want it That Way",movie-this,"Shawshank Redemption",spotify-this-song,"Barbie Girl"
+4
+"Shawshank Redemption"
+spotify-this-song,"I Want it That Way",movie-this,"Shawshank Redemption",spotify-this-song,"Barbie Girl"
+4
+spotify-this-song
+spotify-this-song,"I Want it That Way",movie-this,"Shawshank Redemption",spotify-this-song,"Barbie Girl"
+3
+movie-this
+spotify-this-song,"I Want it That Way",movie-this,"Shawshank Redemption",spotify-this-song,"Barbie Girl"
+0
+spotify-this-song
+spotify-this-song,"I Want it That Way",movie-this,"Shawshank Redemption",spotify-this-song,"Barbie Girl"
+0
+spotify-this-song
+spotify-this-song,"I Want it That Way",movie-this,"Shawshank Redemption",spotify-this-song,"Barbie Girl"
+1
+spotify-this-song
+"I Want it That Way"
+spotify-this-song,"I Want it That Way",movie-this,"Shawshank Redemption",spotify-this-song,"Barbie Girl"
+2
+movie-this
+"Shawshank Redemption"
+spotify-this-song,"I Want it That Way",movie-this,"Shawshank Redemption",spotify-this-song,"Barbie Girl"
+1
+spotify-this-song
+"I Want it That Way"
+spotify-this-song,"I Want it That Way",movie-this,"Shawshank Redemption",spotify-this-song,"Barbie Girl"
+3
+movie-this
+"Shawshank Redemption"
+spotify-this-song,"I Want it That Way",movie-this,"Shawshank Redemption",spotify-this-song,"Barbie Girl"
+4
+spotify-this-song
+"Barbie Girl"
+spotify-this-song,"I Want it That Way",movie-this,"Shawshank Redemption",spotify-this-song,"Barbie Girl"
+movie-this
+3
+"Shawshank Redemption"
+spotify-this-song,"I Want it That Way",movie-this,"Shawshank Redemption",spotify-this-song,"Barbie Girl"
+5
+spotify-this-song
+"Barbie Girl"
+spotify-this-song,"I Want it That Way",movie-this,"Shawshank Redemption",spotify-this-song,"Barbie Girl"
+1
+spotify-this-song
+"I Want it That Way"
+-------- Log Entry --------
+Sun Jul 30 2017 11:26:10 GMT-0400 (Eastern Daylight Time)
+User used getSong()
+You searched Spotify for: "I Want it That Way"
+---As I scoured the intrawebs, here is what I found---
+The song "I Want it That Way" was performed by Backstreet Boys.
+Backstreet Boys released this song on the album "The Hits--Chapter One".
+You can listen to "I Want it That Way" here - https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=b60f1a79719e43989a2c91c81912761a

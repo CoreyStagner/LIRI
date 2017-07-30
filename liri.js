@@ -35,7 +35,7 @@ switch(action){
     getMovie(value);
     break;
   case "do-what-it-says":
-
+    random();
     break;
   case "help":
     help();
@@ -191,7 +191,41 @@ To learn more about this film you can visit
   }); // end request()
 } // end getMovie()
 
+function getWeather(input){
 
+} // end getWeather()
+
+function random(){
+  fs.readFile("random.txt", "utf8", function(err, data){
+    if(err){
+      log(err);
+    } else{
+      var dataArr = data.split(",");
+      var numRandom = Math.floor(Math.random() * dataArr.length);
+      var keyCheck;
+      var keyRandom;
+      if(numRandom % 2 === 0){
+        keyCheck = true;
+        keyRandom = numRandom;
+      } else {
+        keyCheck = false;
+        keyRandom = numRandom - 1;
+      } // end if/else()
+      var valToKey = keyRandom + 1;
+      // Determine which function this random action wants to run, and then run the respective value
+      if(dataArr[keyRandom] === "spotify-this-song"){
+        getSong(dataArr[valToKey]);
+      } else if(dataArr[keyRandom] === "movie-this"){
+        getMovie(dataArr[valToKey]);
+      } else if(dataArr[keyRandom] === "weather-this"){
+        getWeather(dataArr[valToKey]);
+      } // end if/else()
+
+
+
+    } // end if/else()
+  }) // end fs.readFile
+} // end random()
 
 
 
