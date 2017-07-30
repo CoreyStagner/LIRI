@@ -37,6 +37,12 @@ switch(action){
   case "do-what-it-says":
     random();
     break;
+  case "get-weather":
+    getWeather(value);
+    break;
+  case "count-to":
+    countTo(value);
+    break;
   case "help":
     help();
     break;
@@ -227,8 +233,36 @@ function random(){
   }) // end fs.readFile
 } // end random()
 
+// function countTo(input){
+//   fs.appendFile("log.txt", ("-------- Log Entry --------\n" + Date() + "\n" + "User used countTo()\nHere I go..."));
+//   var target = parseInt(input);
+//   console.log(target);
+//   if(target > 0){
+//     for(i=0; i<target; i++){
+//       log("$"+i);
+//     } // end for()
+//   } else {
+//     log("Please enter a number above 0!")
+//   } // if if/else()
+// }
 
-
+function countTo(input){
+  fs.appendFile("log.txt", ("-------- Log Entry --------\n" + Date() + "\n" + "User used countTo() to count up to " + input + "\nHere I go..."));
+  var target = parseInt(input);
+  if(target > 0){
+    for(i=0; i<target; i++){
+      console.log("$"+(i+1));
+    } // end for()
+    var balance = target * 0.01;
+    log(`For my awesome math skills, you now owe me a penny for each count. You think programming me was cheap?
+Let's see here... 
+Since I did ${target} calculations, you now owe me $${balance}.
+I have not been integrated with a credit card machine, Apple Pay, Google Pay, or Venmo API's yet, so I only accept cash.
+Sorry for the inconvenience.`)
+  } else {
+    log("Please enter a number above 0!")
+  } // if if/else()
+} // end count
 
 
 
