@@ -10,6 +10,7 @@ var Twitter = require("twitter");
 var Spotify = require("node-spotify-api");
 var request = require("request");
 var weather = require("weather-js");
+var inquire = require("inquirer");
 
 // Initialize Variables
 
@@ -19,7 +20,7 @@ var value = input[3];
 var feed = new Twitter(keys.twitterKeys);
 var userTwitter = "StagnerDev";
 var spotify = new Spotify(keys.spotifyKeys);
-for (var i = 3; i < input.length; i++) {
+for (var i = 3; i === input.length; i++) {
   value = value + " " + input[i];
 }
 
@@ -28,21 +29,47 @@ console.log(value);
 // Determine What LIRI is getting asked to do.
 
 switch(action){
+  case "twitter":
+  case "get-tweets":
+  case "getTweets":
+  case "myTwitter":
   case "my-tweets":
     getTweets();
     break;
+  case "spotify":
+  case "song":
+  case "spotifyThis":
+  case "spotifyThisSong":
+  case "spotify-this":
   case "spotify-this-song":
     getSong(value);
     break;
+  case "omdb-this":
+  case "omdb":
+  case "omdbThis":
+  case "movieThis":
   case "movie-this":
     getMovie(value);
     break;
+  case "random":
+  case "randomThis":
+  case "random-this":
   case "do-what-it-says":
     random();
     break;
+  case "weather":
+  case "getWeather":
+  case "this-weather":
+  case "thisWeather":
+  case "weatherThis":
+  case "weather-this":
+  case "weather-get":
   case "get-weather":
     getWeather(value);
     break;
+  case "count":
+  case "countTo":
+  case "countUpTo":
   case "count-to":
     countTo(value);
     break;
@@ -51,6 +78,9 @@ switch(action){
     break;
   case "about":
     about();
+    break;
+  case "prompt":
+    prompt();
     break;
 }
 
@@ -181,11 +211,23 @@ function getMovie(input){
   request(`http://www.omdbapi.com/?t=${movie}&y=&plot=short&apikey=40e9cece`, function(err, response, body) {
     if (!err && response.statusCode === 200) {
       var data = JSON.parse(body);
+      console.log(data);
       var title = data.Title;
       var year = data.Year;
       var rated = data.Rated;
-      var imdbRating = data.Ratings[0].value;
-      var rottenRating = data.Ratings[1].value;
+      var ratingLength = data.Ratings.length;
+      console.log(ratingLength);
+      if(ratingLength === 0){
+        var imdbRating = "Sorry this movie is yet to be rated."
+      } else{
+        var imdbRating = data.Ratings[0].Value;
+        console.log(data.Ratings[0]);
+      }
+      if(ratingLength > 1){
+        var rottenRating = data.Ratings[1].Value;
+      } else {
+        var rottenRating = "We were too lazy to even watch this movie.";
+      }
       var country = data.Country;
       var language = data.Language;
       var plot = data.Plot;
@@ -278,12 +320,24 @@ Sorry for the inconvenience.`)
   } // if if/else()
 } // end count
 
-
-
-
-
-
-
-
-
-// Sandbox
+function prompt(){
+  inquire
+    .prompt([
+      {
+        type: "list",
+        message: "What would you like to do?",
+        choices: ["Look at my tweets", "Check weather somewhere", "Count up to", "Check info on a song", "Check info on a movie"],
+        name: "choice"
+      } // end questions
+    ]) // end inquire.prompt()
+    .then(function(response){
+      var rc = response.choice;
+      if(rc === "Look at my tweets"){
+        getTweets();
+      }else if(rc === "Check weather somewhere"){
+        console.log("look at weather.");
+      }else{
+        console.log("something else");
+      }
+    }) // end then()
+} // end prompt()

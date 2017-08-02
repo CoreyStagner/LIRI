@@ -732,3 +732,324 @@ If I am wrong dont blame me, I have a guy and weather.service.msn.com. You may h
          Temperature: 77
             Humidity: 89
         Current Wind: 6 mph Northeast
+-------- Log Entry --------
+Tue Aug 01 2017 18:08:28 GMT-0400 (Eastern Daylight Time)
+User used getTweets()
+Tweet 1: At Sat Jul 29 20:42:30 +0000 2017 you tweeted "19"
+Tweet 2: At Sat Jul 29 20:42:27 +0000 2017 you tweeted "18"
+Tweet 3: At Sat Jul 29 20:41:45 +0000 2017 you tweeted "17"
+Tweet 4: At Sat Jul 29 20:41:39 +0000 2017 you tweeted "16"
+Tweet 5: At Sat Jul 29 20:41:37 +0000 2017 you tweeted "15"
+Tweet 6: At Sat Jul 29 20:41:34 +0000 2017 you tweeted "14"
+Tweet 7: At Sat Jul 29 20:41:32 +0000 2017 you tweeted "13"
+Tweet 8: At Sat Jul 29 20:41:29 +0000 2017 you tweeted "12"
+Tweet 9: At Sat Jul 29 20:41:27 +0000 2017 you tweeted "11"
+Tweet 10: At Sat Jul 29 20:41:24 +0000 2017 you tweeted "10"
+Tweet 11: At Sat Jul 29 20:41:21 +0000 2017 you tweeted "9"
+Tweet 12: At Sat Jul 29 20:41:19 +0000 2017 you tweeted "8"
+Tweet 13: At Sat Jul 29 20:41:11 +0000 2017 you tweeted "7"
+Tweet 14: At Sat Jul 29 20:41:06 +0000 2017 you tweeted "6"
+Tweet 16: At Sat Jul 29 20:40:56 +0000 2017 you tweeted "4"
+Tweet 15: At Sat Jul 29 20:41:02 +0000 2017 you tweeted "5"
+Tweet 17: At Sat Jul 29 20:40:54 +0000 2017 you tweeted "3"
+Tweet 18: At Sat Jul 29 20:40:50 +0000 2017 you tweeted "2"
+Tweet 19: At Sat Jul 29 20:40:43 +0000 2017 you tweeted "1"
+Tweet 20: At Sat Jul 29 00:36:11 +0000 2017 you tweeted "Welcome to my LIRI"
+-------- Log Entry --------
+Tue Aug 01 2017 18:16:42 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+-------- Log Entry --------
+Tue Aug 01 2017 18:17:06 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+-------- Log Entry --------
+Tue Aug 01 2017 18:18:53 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+-------- Log Entry --------
+Tue Aug 01 2017 18:19:23 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+-------- Log Entry --------
+Tue Aug 01 2017 18:19:43 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+-------- Log Entry --------
+Tue Aug 01 2017 18:20:28 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for titanic and here is what I have found:
+Titanic (PG-13) was released in 1997.
+This movie was released in USA in English, Swedish and featured Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates.
+A quick plot of the film is:
+  A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+
+Critic Ratings for Titanic:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://www.titanicmovie.com/
+-------- Log Entry --------
+Tue Aug 01 2017 18:20:49 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for titanic and here is what I have found:
+Titanic (PG-13) was released in 1997.
+This movie was released in USA in English, Swedish and featured Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates.
+A quick plot of the film is:
+  A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+
+Critic Ratings for Titanic:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://www.titanicmovie.com/
+-------- Log Entry --------
+Tue Aug 01 2017 18:29:11 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for titanic and here is what I have found:
+Titanic (PG-13) was released in 1997.
+This movie was released in USA in English, Swedish and featured Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates.
+A quick plot of the film is:
+  A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+
+Critic Ratings for Titanic:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://www.titanicmovie.com/
+-------- Log Entry --------
+Tue Aug 01 2017 18:29:26 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for titanic and here is what I have found:
+Titanic (PG-13) was released in 1997.
+This movie was released in USA in English, Swedish and featured Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates.
+A quick plot of the film is:
+  A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+
+Critic Ratings for Titanic:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://www.titanicmovie.com/
+-------- Log Entry --------
+Tue Aug 01 2017 18:30:02 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for titanic and here is what I have found:
+Titanic (PG-13) was released in 1997.
+This movie was released in USA in English, Swedish and featured Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates.
+A quick plot of the film is:
+  A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+
+Critic Ratings for Titanic:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://www.titanicmovie.com/
+-------- Log Entry --------
+Tue Aug 01 2017 18:30:31 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for titanic and here is what I have found:
+Titanic (PG-13) was released in 1997.
+This movie was released in USA in English, Swedish and featured Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates.
+A quick plot of the film is:
+  A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+
+Critic Ratings for Titanic:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://www.titanicmovie.com/
+-------- Log Entry --------
+Tue Aug 01 2017 18:54:43 GMT-0400 (Eastern Daylight Time)
+User used getTweets()
+Tweet 1: At Sat Jul 29 20:42:30 +0000 2017 you tweeted "19"
+Tweet 5: At Sat Jul 29 20:41:37 +0000 2017 you tweeted "15"
+Tweet 6: At Sat Jul 29 20:41:34 +0000 2017 you tweeted "14"
+Tweet 7: At Sat Jul 29 20:41:32 +0000 2017 you tweeted "13"
+Tweet 8: At Sat Jul 29 20:41:29 +0000 2017 you tweeted "12"
+Tweet 9: At Sat Jul 29 20:41:27 +0000 2017 you tweeted "11"
+Tweet 3: At Sat Jul 29 20:41:45 +0000 2017 you tweeted "17"
+Tweet 10: At Sat Jul 29 20:41:24 +0000 2017 you tweeted "10"
+Tweet 11: At Sat Jul 29 20:41:21 +0000 2017 you tweeted "9"
+Tweet 12: At Sat Jul 29 20:41:19 +0000 2017 you tweeted "8"
+Tweet 13: At Sat Jul 29 20:41:11 +0000 2017 you tweeted "7"
+Tweet 14: At Sat Jul 29 20:41:06 +0000 2017 you tweeted "6"
+Tweet 15: At Sat Jul 29 20:41:02 +0000 2017 you tweeted "5"
+Tweet 16: At Sat Jul 29 20:40:56 +0000 2017 you tweeted "4"
+Tweet 17: At Sat Jul 29 20:40:54 +0000 2017 you tweeted "3"
+Tweet 18: At Sat Jul 29 20:40:50 +0000 2017 you tweeted "2"
+Tweet 19: At Sat Jul 29 20:40:43 +0000 2017 you tweeted "1"
+Tweet 2: At Sat Jul 29 20:42:27 +0000 2017 you tweeted "18"
+Tweet 4: At Sat Jul 29 20:41:39 +0000 2017 you tweeted "16"
+Tweet 20: At Sat Jul 29 00:36:11 +0000 2017 you tweeted "Welcome to my LIRI"
+-------- Log Entry --------
+Tue Aug 01 2017 19:00:48 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for click and here is what I have found:
+Click (PG-13) was released in 2006.
+This movie was released in USA in English, Portuguese, Japanese and featured Adam Sandler, Kate Beckinsale, Christopher Walken, David Hasselhoff.
+A quick plot of the film is:
+  A workaholic architect finds a universal remote that allows him to fast-forward and rewind to different parts of his life. Complications arise when the remote starts to overrule his choices.
+
+Critic Ratings for Click:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://www.sonypictures.com/movies/click/
+-------- Log Entry --------
+Tue Aug 01 2017 19:03:10 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for goonies and here is what I have found:
+The Goonies (PG) was released in 1985.
+This movie was released in USA in English, Spanish, Cantonese, Italian and featured Sean Astin, Josh Brolin, Jeff Cohen, Corey Feldman.
+A quick plot of the film is:
+  In order to save their home from foreclosure, a group of misfits set out to find a pirate's ancient valuable treasure.
+
+Critic Ratings for The Goonies:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  N/A
+-------- Log Entry --------
+Tue Aug 01 2017 19:06:02 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for goonies and here is what I have found:
+The Goonies (PG) was released in 1985.
+This movie was released in USA in English, Spanish, Cantonese, Italian and featured Sean Astin, Josh Brolin, Jeff Cohen, Corey Feldman.
+A quick plot of the film is:
+  In order to save their home from foreclosure, a group of misfits set out to find a pirate's ancient valuable treasure.
+
+Critic Ratings for The Goonies:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  N/A
+-------- Log Entry --------
+Tue Aug 01 2017 19:25:58 GMT-0400 (Eastern Daylight Time)
+User used getWeather() searching Charlotte,
+If I am wrong dont blame me, I have a guy and weather.service.msn.com. You may have heard of him, his name is Ehpeaeye.
+  Anyways, he told me that in Charlotte, NC, they checked the weather there at 19:10:00 their time and here is what they got.
+    The current weather is :
+         Temperature: 88
+            Humidity: 36
+        Current Wind: 4 mph East
+-------- Log Entry --------
+Tue Aug 01 2017 19:46:05 GMT-0400 (Eastern Daylight Time)
+User used getTweets()
+Tweet 1: At Sat Jul 29 20:42:30 +0000 2017 you tweeted "19"
+Tweet 2: At Sat Jul 29 20:42:27 +0000 2017 you tweeted "18"
+Tweet 3: At Sat Jul 29 20:41:45 +0000 2017 you tweeted "17"
+Tweet 4: At Sat Jul 29 20:41:39 +0000 2017 you tweeted "16"
+Tweet 5: At Sat Jul 29 20:41:37 +0000 2017 you tweeted "15"
+Tweet 8: At Sat Jul 29 20:41:29 +0000 2017 you tweeted "12"
+Tweet 9: At Sat Jul 29 20:41:27 +0000 2017 you tweeted "11"
+Tweet 10: At Sat Jul 29 20:41:24 +0000 2017 you tweeted "10"
+Tweet 6: At Sat Jul 29 20:41:34 +0000 2017 you tweeted "14"
+Tweet 7: At Sat Jul 29 20:41:32 +0000 2017 you tweeted "13"
+Tweet 11: At Sat Jul 29 20:41:21 +0000 2017 you tweeted "9"
+Tweet 12: At Sat Jul 29 20:41:19 +0000 2017 you tweeted "8"
+Tweet 13: At Sat Jul 29 20:41:11 +0000 2017 you tweeted "7"
+Tweet 15: At Sat Jul 29 20:41:02 +0000 2017 you tweeted "5"
+Tweet 16: At Sat Jul 29 20:40:56 +0000 2017 you tweeted "4"
+Tweet 17: At Sat Jul 29 20:40:54 +0000 2017 you tweeted "3"
+Tweet 18: At Sat Jul 29 20:40:50 +0000 2017 you tweeted "2"
+Tweet 19: At Sat Jul 29 20:40:43 +0000 2017 you tweeted "1"
+Tweet 14: At Sat Jul 29 20:41:06 +0000 2017 you tweeted "6"
+Tweet 20: At Sat Jul 29 00:36:11 +0000 2017 you tweeted "Welcome to my LIRI"
+-------- Log Entry --------
+Tue Aug 01 2017 20:23:03 GMT-0400 (Eastern Daylight Time)
+User used getWeather() searching Charlotte,
+If I am wrong dont blame me, I have a guy and weather.service.msn.com. You may have heard of him, his name is Ehpeaeye.
+  Anyways, he told me that in Charlotte, NC, they checked the weather there at 19:55:00 their time and here is what they got.
+    The current weather is :
+         Temperature: 87
+            Humidity: 36
+        Current Wind: 4 mph East
+-------- Log Entry --------
+Tue Aug 01 2017 20:23:52 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for frozen and here is what I have found:
+Frozen (PG) was released in 2013.
+This movie was released in USA in English, Icelandic and featured Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad.
+A quick plot of the film is:
+  When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister, Anna, teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.
+
+Critic Ratings for Frozen:
+  IMDB: undefined
+  Rotten Tomatoes: undefined
+
+To learn more about this film you can visit 
+  http://www.disney.com/frozen
+-------- Log Entry --------
+Tue Aug 01 2017 20:24:57 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for frozen and here is what I have found:
+Frozen (PG) was released in 2013.
+This movie was released in USA in English, Icelandic and featured Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad.
+A quick plot of the film is:
+  When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister, Anna, teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.
+
+Critic Ratings for Frozen:
+  IMDB: 7.5/10
+  Rotten Tomatoes: 89%
+
+To learn more about this film you can visit 
+  http://www.disney.com/frozen
+-------- Log Entry --------
+Tue Aug 01 2017 22:41:32 GMT-0400 (Eastern Daylight Time)
+User used getTweets()
+Tweet 1: At Sat Jul 29 20:42:30 +0000 2017 you tweeted "19"
+Tweet 2: At Sat Jul 29 20:42:27 +0000 2017 you tweeted "18"
+Tweet 3: At Sat Jul 29 20:41:45 +0000 2017 you tweeted "17"
+Tweet 4: At Sat Jul 29 20:41:39 +0000 2017 you tweeted "16"
+Tweet 5: At Sat Jul 29 20:41:37 +0000 2017 you tweeted "15"
+Tweet 6: At Sat Jul 29 20:41:34 +0000 2017 you tweeted "14"
+Tweet 7: At Sat Jul 29 20:41:32 +0000 2017 you tweeted "13"
+Tweet 8: At Sat Jul 29 20:41:29 +0000 2017 you tweeted "12"
+Tweet 9: At Sat Jul 29 20:41:27 +0000 2017 you tweeted "11"
+Tweet 10: At Sat Jul 29 20:41:24 +0000 2017 you tweeted "10"
+Tweet 11: At Sat Jul 29 20:41:21 +0000 2017 you tweeted "9"
+Tweet 12: At Sat Jul 29 20:41:19 +0000 2017 you tweeted "8"
+Tweet 13: At Sat Jul 29 20:41:11 +0000 2017 you tweeted "7"
+Tweet 14: At Sat Jul 29 20:41:06 +0000 2017 you tweeted "6"
+Tweet 15: At Sat Jul 29 20:41:02 +0000 2017 you tweeted "5"
+Tweet 16: At Sat Jul 29 20:40:56 +0000 2017 you tweeted "4"
+Tweet 17: At Sat Jul 29 20:40:54 +0000 2017 you tweeted "3"
+Tweet 18: At Sat Jul 29 20:40:50 +0000 2017 you tweeted "2"
+Tweet 19: At Sat Jul 29 20:40:43 +0000 2017 you tweeted "1"
+Tweet 20: At Sat Jul 29 00:36:11 +0000 2017 you tweeted "Welcome to my LIRI"
+-------- Log Entry --------
+Tue Aug 01 2017 22:41:56 GMT-0400 (Eastern Daylight Time)
+User used getSong()
+You searched Spotify for: bye
+---As I scoured the intrawebs, here is what I found---
+The song bye was performed by *NSYNC.
+*NSYNC released this song on the album "No Strings Attached".
+You can listen to bye here - https://p.scdn.co/mp3-preview/72b91cb27fac7beb50a2deffdd8b821fba5ba950?cid=b60f1a79719e43989a2c91c81912761a
+-------- Log Entry --------
+Tue Aug 01 2017 23:10:28 GMT-0400 (Eastern Daylight Time)
+User used getTweets()
+Tweet 1: At Sat Jul 29 20:42:30 +0000 2017 you tweeted "19"
+Tweet 2: At Sat Jul 29 20:42:27 +0000 2017 you tweeted "18"
+Tweet 3: At Sat Jul 29 20:41:45 +0000 2017 you tweeted "17"
+Tweet 4: At Sat Jul 29 20:41:39 +0000 2017 you tweeted "16"
+Tweet 5: At Sat Jul 29 20:41:37 +0000 2017 you tweeted "15"
+Tweet 8: At Sat Jul 29 20:41:29 +0000 2017 you tweeted "12"
+Tweet 9: At Sat Jul 29 20:41:27 +0000 2017 you tweeted "11"
+Tweet 10: At Sat Jul 29 20:41:24 +0000 2017 you tweeted "10"
+Tweet 11: At Sat Jul 29 20:41:21 +0000 2017 you tweeted "9"
+Tweet 12: At Sat Jul 29 20:41:19 +0000 2017 you tweeted "8"
+Tweet 13: At Sat Jul 29 20:41:11 +0000 2017 you tweeted "7"
+Tweet 14: At Sat Jul 29 20:41:06 +0000 2017 you tweeted "6"
+Tweet 15: At Sat Jul 29 20:41:02 +0000 2017 you tweeted "5"
+Tweet 16: At Sat Jul 29 20:40:56 +0000 2017 you tweeted "4"
+Tweet 17: At Sat Jul 29 20:40:54 +0000 2017 you tweeted "3"
+Tweet 18: At Sat Jul 29 20:40:50 +0000 2017 you tweeted "2"
+Tweet 19: At Sat Jul 29 20:40:43 +0000 2017 you tweeted "1"
+Tweet 6: At Sat Jul 29 20:41:34 +0000 2017 you tweeted "14"
+Tweet 7: At Sat Jul 29 20:41:32 +0000 2017 you tweeted "13"
+Tweet 20: At Sat Jul 29 00:36:11 +0000 2017 you tweeted "Welcome to my LIRI"
