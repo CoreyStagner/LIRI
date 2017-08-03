@@ -25,8 +25,6 @@ for (var i = 3; i === input.length; i++) {
   value = value + " " + input[i];
 }
 
-console.log(value);
-
 // Determine What LIRI is getting asked to do.
 
 switch(action){
@@ -37,6 +35,8 @@ switch(action){
   case "my-tweets":
     getTweets();
     break;
+  case "getSong":
+  case "getsong":
   case "spotify":
   case "song":
   case "spotifyThis":
@@ -106,6 +106,7 @@ terminal:
 
 node liri.js <ACTION> <ARGUMENTS>
 
+node liri.js prompt
 node liri.js my-tweets
 node liri.js spotify-this-song <ARGUMENTS>
 node liri.js movie-this <ARGUMENTS>
@@ -137,7 +138,7 @@ node liri.js movie-this Cinderella
 } // end help()
 
 function about(){
-  console.log(chalk.bgBlackBright(
+  console.log(
 `
 ${chalk.red("Welcome to LIRI bot")} 
 ${chalk.green("Version 1.0.0")}
@@ -153,7 +154,7 @@ ${chalk.blue("°°ÛÛÛ     ÛÛÛ ÛÛÛ    °ÛÛÛ     °ÛÛÛ    ÛÛÛ °
 ${chalk.red(" °°ÛÛÛÛÛÛÛÛÛ °°ÛÛÛÛÛÛÛÛÛ      ÛÛÛÛÛÛÛÛÛÛ  °°ÛÛÛÛÛÛ   °°ÛÛÛÛÛ   ")} 
 ${chalk.green("  °°°°°°°°°   °°°°°°°°°      °°°°°°°°°°    °°°°°°     °°°°°    ")} 
 
-`)); // end template string
+`); // end template string
 } // end about()
 
 function log(input){
@@ -184,7 +185,7 @@ function getSong(input){
   var valType = "track";
   var song = input;
 
-  if(input == null) {
+  if(input == null || input === "undefined" || input === "undefined undefined") {
     song = "The Sign";
   }
 
@@ -215,7 +216,6 @@ function getMovie(input){
   request(`http://www.omdbapi.com/?t=${movie}&y=&plot=short&apikey=40e9cece`, function(err, response, body) {
     if (!err && response.statusCode === 200) {
       var data = JSON.parse(body);
-      console.log(data);
       var title = data.Title;
       var year = data.Year;
       var rated = data.Rated;
@@ -225,7 +225,6 @@ function getMovie(input){
         var imdbRating = "Sorry this movie is yet to be rated."
       } else{
         var imdbRating = data.Ratings[0].Value;
-        console.log(data.Ratings[0]);
       }
       if(ratingLength > 1){
         var rottenRating = data.Ratings[1].Value;
