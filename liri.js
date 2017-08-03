@@ -86,7 +86,7 @@ switch(action){
   case "setup":
     setup();
     break;
-}
+} // end switch()
 
 // Functions
 function help(){

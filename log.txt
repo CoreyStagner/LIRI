@@ -1183,3 +1183,11 @@ Critic Ratings for Wreck-It Ralph:
 
 To learn more about this film you can visit 
   http://disney.go.com/wreck-it-ralph/
+-------- Log Entry --------
+Thu Aug 03 2017 17:13:13 GMT-0400 (Eastern Daylight Time)
+User used countTo() to count up to 1
+Here I go...For my awesome math skills, you now owe me a penny for each count. You think programming me was cheap?
+  Let's see here... 
+  Since I did 1 calculations, you now owe me $0.01.
+  I have not been integrated with a credit card machine, Apple Pay, Google Pay, or Venmo API's yet, so I only accept cash.
+  Sorry for the inconvenience.
