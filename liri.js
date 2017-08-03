@@ -11,6 +11,7 @@ var Spotify = require("node-spotify-api");
 var request = require("request");
 var weather = require("weather-js");
 var inquire = require("inquirer");
+const chalk = require("chalk");
 
 // Initialize Variables
 
@@ -82,6 +83,9 @@ switch(action){
   case "prompt":
     prompt();
     break;
+  case "setup":
+    setup();
+    break;
 }
 
 // Functions
@@ -133,27 +137,27 @@ node liri.js movie-this Cinderella
 } // end help()
 
 function about(){
-  console.log(
+  console.log(chalk.bgBlackBright(
 `
-Welcome to LIRI bot 
-Version 1.0.0
-  -by Corey Stagner
+${chalk.red("Welcome to LIRI bot")} 
+${chalk.green("Version 1.0.0")}
+${chalk.blue("  -by Corey Stagner")}
 
 
-   ÛÛÛÛÛÛÛÛÛ   ÛÛÛÛÛÛÛÛÛ      ÛÛÛÛÛÛÛÛÛÛ                       
-  ÛÛÛ°°°°°ÛÛÛ ÛÛÛ°°°°°ÛÛÛ    °°ÛÛÛ°°°°ÛÛÛ                      
- ÛÛÛ     °°° °ÛÛÛ    °°°      °ÛÛÛ   °°ÛÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛ ÛÛÛÛÛ
-°ÛÛÛ         °°ÛÛÛÛÛÛÛÛÛ      °ÛÛÛ    °ÛÛÛ ÛÛÛ°°ÛÛÛ°°ÛÛÛ °°ÛÛÛ 
-°ÛÛÛ          °°°°°°°°ÛÛÛ     °ÛÛÛ    °ÛÛÛ°ÛÛÛÛÛÛÛ  °ÛÛÛ  °ÛÛÛ 
-°°ÛÛÛ     ÛÛÛ ÛÛÛ    °ÛÛÛ     °ÛÛÛ    ÛÛÛ °ÛÛÛ°°°   °°ÛÛÛ ÛÛÛ  
- °°ÛÛÛÛÛÛÛÛÛ °°ÛÛÛÛÛÛÛÛÛ      ÛÛÛÛÛÛÛÛÛÛ  °°ÛÛÛÛÛÛ   °°ÛÛÛÛÛ   
-  °°°°°°°°°   °°°°°°°°°      °°°°°°°°°°    °°°°°°     °°°°°    
+${chalk.red("   ÛÛÛÛÛÛÛÛÛ   ÛÛÛÛÛÛÛÛÛ      ÛÛÛÛÛÛÛÛÛÛ                       ")} 
+${chalk.green("  ÛÛÛ°°°°°ÛÛÛ ÛÛÛ°°°°°ÛÛÛ    °°ÛÛÛ°°°°ÛÛÛ                      ")} 
+${chalk.blue(" ÛÛÛ     °°° °ÛÛÛ    °°°      °ÛÛÛ   °°ÛÛÛ  ÛÛÛÛÛÛ  ÛÛÛÛÛ ÛÛÛÛÛ")} 
+${chalk.red("°ÛÛÛ         °°ÛÛÛÛÛÛÛÛÛ      °ÛÛÛ    °ÛÛÛ ÛÛÛ°°ÛÛÛ°°ÛÛÛ °°ÛÛÛ ")} 
+${chalk.green("°ÛÛÛ          °°°°°°°°ÛÛÛ     °ÛÛÛ    °ÛÛÛ°ÛÛÛÛÛÛÛ  °ÛÛÛ  °ÛÛÛ ")} 
+${chalk.blue("°°ÛÛÛ     ÛÛÛ ÛÛÛ    °ÛÛÛ     °ÛÛÛ    ÛÛÛ °ÛÛÛ°°°   °°ÛÛÛ ÛÛÛ  ")} 
+${chalk.red(" °°ÛÛÛÛÛÛÛÛÛ °°ÛÛÛÛÛÛÛÛÛ      ÛÛÛÛÛÛÛÛÛÛ  °°ÛÛÛÛÛÛ   °°ÛÛÛÛÛ   ")} 
+${chalk.green("  °°°°°°°°°   °°°°°°°°°      °°°°°°°°°°    °°°°°°     °°°°°    ")} 
 
-`); // end template string
+`)); // end template string
 } // end about()
 
 function log(input){
-  console.log(input);
+  console.log(chalk.green(input));
   fs.appendFile("log.txt",(input + `\n`));
 } //end log()
 
@@ -307,18 +311,22 @@ function countTo(input){
   var target = parseInt(input);
   if(target > 0){
     for(i=0; i<target; i++){
-      console.log("$"+(i+1));
+      console.log((i+1));
     } // end for()
     var balance = target * 0.01;
     log(`For my awesome math skills, you now owe me a penny for each count. You think programming me was cheap?
-Let's see here... 
-Since I did ${target} calculations, you now owe me $${balance}.
-I have not been integrated with a credit card machine, Apple Pay, Google Pay, or Venmo API's yet, so I only accept cash.
-Sorry for the inconvenience.`)
+  Let's see here... 
+  Since I did ${target} calculations, you now owe me $${balance}.
+  I have not been integrated with a credit card machine, Apple Pay, Google Pay, or Venmo API's yet, so I only accept cash.
+  Sorry for the inconvenience.`)
   } else {
     log("Please enter a number above 0!")
   } // if if/else()
 } // end count
+
+function setup(){
+  console.log("This one is still a work in progress");
+}
 
 function prompt(){
   inquire
@@ -336,8 +344,59 @@ function prompt(){
         getTweets();
       }else if(rc === "Check weather somewhere"){
         console.log("look at weather.");
-      }else{
-        console.log("something else");
-      }
+        inquire
+          .prompt([
+            {
+              type: "input",
+              message: "Where would you like to search the weather?",
+              name: "search"
+            } // end questions()
+          ]) // end inquire.prompt()
+          .then(function(response){
+            var search = response.search;
+            getWeather(search);
+          }); // end .then()
+      }else if(rc === "Count up to"){
+        inquire
+          .prompt([
+            {
+              type: "input",
+              message: "How high should I count?",
+              name: "count"
+            } // end questions()
+          ]) // end inquire.prompt{}
+          .then(function(response){
+            var count = response.count;
+            countTo(count);
+          }); // end .then()
+      }else if(rc === "Check info on a song"){
+        inquire
+          .prompt([
+            {
+              type: "input",
+              message: "What song should we look up?",
+              name: "song"
+            } // end questions{}
+          ]) // end inquire.prompt()
+          .then(function(response){
+            var song = response.song;
+            getSong(song);
+          }) // end .then
+      } else if(rc === "Check info on a movie"){
+        inquire
+          .prompt([
+            {
+              type: "input",
+              message: "What movie should we look up?",
+              name: "movie"
+            } // end questions()
+          ]) // end inquire.prompt()
+          .then(function(response){
+            var movie = response.movie;
+            getMovie(movie);
+          }) // end inquire.prompt()
+      } else {
+        console.log("I should add this to the the function.")
+      } // end if/else()
     }) // end then()
 } // end prompt()

@@ -1053,3 +1053,133 @@ Tweet 19: At Sat Jul 29 20:40:43 +0000 2017 you tweeted "1"
 Tweet 6: At Sat Jul 29 20:41:34 +0000 2017 you tweeted "14"
 Tweet 7: At Sat Jul 29 20:41:32 +0000 2017 you tweeted "13"
 Tweet 20: At Sat Jul 29 00:36:11 +0000 2017 you tweeted "Welcome to my LIRI"
+-------- Log Entry --------
+Wed Aug 02 2017 19:08:30 GMT-0400 (Eastern Daylight Time)
+User used getWeather() searching Charlotte, NC
+If I am wrong dont blame me, I have a guy and weather.service.msn.com. You may have heard of him, his name is Ehpeaeye.
+  Anyways, he told me that in Charlotte, NC, they checked the weather there at 18:45:00 their time and here is what they got.
+    The current weather is :
+         Temperature: 85
+            Humidity: 48
+        Current Wind: 3 mph Southwest
+-------- Log Entry --------
+Wed Aug 02 2017 19:09:05 GMT-0400 (Eastern Daylight Time)
+User used getWeather() searching charlotte,
+If I am wrong dont blame me, I have a guy and weather.service.msn.com. You may have heard of him, his name is Ehpeaeye.
+  Anyways, he told me that in Charlotte, NC, they checked the weather there at 18:45:00 their time and here is what they got.
+    The current weather is :
+         Temperature: 85
+            Humidity: 48
+        Current Wind: 3 mph Southwest
+-------- Log Entry --------
+Wed Aug 02 2017 19:20:04 GMT-0400 (Eastern Daylight Time)
+User used getWeather() searching Tokyo Japan
+If I am wrong dont blame me, I have a guy and weather.service.msn.com. You may have heard of him, his name is Ehpeaeye.
+  Anyways, he told me that in Tokyo, Japan, they checked the weather there at 07:30:00 their time and here is what they got.
+    The current weather is :
+         Temperature: 72
+            Humidity: 83
+        Current Wind: 9 mph North
+-------- Log Entry --------
+Wed Aug 02 2017 19:24:57 GMT-0400 (Eastern Daylight Time)
+User used getWeather() searching home
+If I am wrong dont blame me, I have a guy and weather.service.msn.com. You may have heard of him, his name is Ehpeaeye.
+  Anyways, he told me that in Home Island, NL, they checked the weather there at 19:00:00 their time and here is what they got.
+    The current weather is :
+         Temperature: 40
+            Humidity: 46
+        Current Wind: 14 mph Southeast
+-------- Log Entry --------
+Wed Aug 02 2017 19:25:14 GMT-0400 (Eastern Daylight Time)
+User used getTweets()
+Tweet 1: At Sat Jul 29 20:42:30 +0000 2017 you tweeted "19"
+Tweet 3: At Sat Jul 29 20:41:45 +0000 2017 you tweeted "17"
+Tweet 2: At Sat Jul 29 20:42:27 +0000 2017 you tweeted "18"
+Tweet 4: At Sat Jul 29 20:41:39 +0000 2017 you tweeted "16"
+Tweet 5: At Sat Jul 29 20:41:37 +0000 2017 you tweeted "15"
+Tweet 6: At Sat Jul 29 20:41:34 +0000 2017 you tweeted "14"
+Tweet 7: At Sat Jul 29 20:41:32 +0000 2017 you tweeted "13"
+Tweet 10: At Sat Jul 29 20:41:24 +0000 2017 you tweeted "10"
+Tweet 11: At Sat Jul 29 20:41:21 +0000 2017 you tweeted "9"
+Tweet 12: At Sat Jul 29 20:41:19 +0000 2017 you tweeted "8"
+Tweet 13: At Sat Jul 29 20:41:11 +0000 2017 you tweeted "7"
+Tweet 14: At Sat Jul 29 20:41:06 +0000 2017 you tweeted "6"
+Tweet 15: At Sat Jul 29 20:41:02 +0000 2017 you tweeted "5"
+Tweet 16: At Sat Jul 29 20:40:56 +0000 2017 you tweeted "4"
+Tweet 17: At Sat Jul 29 20:40:54 +0000 2017 you tweeted "3"
+Tweet 18: At Sat Jul 29 20:40:50 +0000 2017 you tweeted "2"
+Tweet 19: At Sat Jul 29 20:40:43 +0000 2017 you tweeted "1"
+Tweet 8: At Sat Jul 29 20:41:29 +0000 2017 you tweeted "12"
+Tweet 9: At Sat Jul 29 20:41:27 +0000 2017 you tweeted "11"
+Tweet 20: At Sat Jul 29 00:36:11 +0000 2017 you tweeted "Welcome to my LIRI"
+-------- Log Entry --------
+Wed Aug 02 2017 20:32:33 GMT-0400 (Eastern Daylight Time)
+User used getTweets()
+Tweet 1: At Sat Jul 29 20:42:30 +0000 2017 you tweeted "19"
+Tweet 4: At Sat Jul 29 20:41:39 +0000 2017 you tweeted "16"
+Tweet 5: At Sat Jul 29 20:41:37 +0000 2017 you tweeted "15"
+Tweet 6: At Sat Jul 29 20:41:34 +0000 2017 you tweeted "14"
+Tweet 7: At Sat Jul 29 20:41:32 +0000 2017 you tweeted "13"
+Tweet 8: At Sat Jul 29 20:41:29 +0000 2017 you tweeted "12"
+Tweet 9: At Sat Jul 29 20:41:27 +0000 2017 you tweeted "11"
+Tweet 10: At Sat Jul 29 20:41:24 +0000 2017 you tweeted "10"
+Tweet 11: At Sat Jul 29 20:41:21 +0000 2017 you tweeted "9"
+Tweet 12: At Sat Jul 29 20:41:19 +0000 2017 you tweeted "8"
+Tweet 13: At Sat Jul 29 20:41:11 +0000 2017 you tweeted "7"
+Tweet 14: At Sat Jul 29 20:41:06 +0000 2017 you tweeted "6"
+Tweet 15: At Sat Jul 29 20:41:02 +0000 2017 you tweeted "5"
+Tweet 16: At Sat Jul 29 20:40:56 +0000 2017 you tweeted "4"
+Tweet 17: At Sat Jul 29 20:40:54 +0000 2017 you tweeted "3"
+Tweet 18: At Sat Jul 29 20:40:50 +0000 2017 you tweeted "2"
+Tweet 19: At Sat Jul 29 20:40:43 +0000 2017 you tweeted "1"
+Tweet 2: At Sat Jul 29 20:42:27 +0000 2017 you tweeted "18"
+Tweet 3: At Sat Jul 29 20:41:45 +0000 2017 you tweeted "17"
+Tweet 20: At Sat Jul 29 00:36:11 +0000 2017 you tweeted "Welcome to my LIRI"
+-------- Log Entry --------
+Wed Aug 02 2017 20:32:42 GMT-0400 (Eastern Daylight Time)
+User used getWeather() searching Home
+If I am wrong dont blame me, I have a guy and weather.service.msn.com. You may have heard of him, his name is Ehpeaeye.
+  Anyways, he told me that in Home Island, NL, they checked the weather there at 20:00:00 their time and here is what they got.
+    The current weather is :
+         Temperature: 40
+            Humidity: 46
+        Current Wind: 14 mph Southeast
+-------- Log Entry --------
+Wed Aug 02 2017 20:32:56 GMT-0400 (Eastern Daylight Time)
+User used countTo() to count up to 47
+Here I go...For my awesome math skills, you now owe me a penny for each count. You think programming me was cheap?
+  Let's see here... 
+  Since I did 47 calculations, you now owe me $0.47000000000000003.
+  I have not been integrated with a credit card machine, Apple Pay, Google Pay, or Venmo API's yet, so I only accept cash.
+  Sorry for the inconvenience.
+-------- Log Entry --------
+Wed Aug 02 2017 20:33:24 GMT-0400 (Eastern Daylight Time)
+User used countTo() to count up to 123
+Here I go...For my awesome math skills, you now owe me a penny for each count. You think programming me was cheap?
+  Let's see here... 
+  Since I did 123 calculations, you now owe me $1.23.
+  I have not been integrated with a credit card machine, Apple Pay, Google Pay, or Venmo API's yet, so I only accept cash.
+  Sorry for the inconvenience.
+-------- Log Entry --------
+Wed Aug 02 2017 20:36:01 GMT-0400 (Eastern Daylight Time)
+User used getSong()
+You searched Spotify for: Galway girl
+---As I scoured the intrawebs, here is what I found---
+The song Galway girl was performed by Ed Sheeran.
+Ed Sheeran released this song on the album "÷ (Deluxe)".
+You can listen to Galway girl here - https://p.scdn.co/mp3-preview/cec1fc40a0220f20d3b91dd28d8e1141ad5e7e25?cid=b60f1a79719e43989a2c91c81912761a
+-------- Log Entry --------
+Wed Aug 02 2017 20:36:20 GMT-0400 (Eastern Daylight Time)
+User used getMovie()
+You have searched for Wreck it ralph and here is what I have found:
+Wreck-It Ralph (PG) was released in 2012.
+This movie was released in USA in English and featured John C. Reilly, Sarah Silverman, Jack McBrayer, Jane Lynch.
+A quick plot of the film is:
+  A video game villain wants to be a hero and sets out to fulfill his dream, but his quest brings havoc to the whole arcade where he lives.
+
+Critic Ratings for Wreck-It Ralph:
+  IMDB: 7.7/10
+  Rotten Tomatoes: 86%
+
+To learn more about this film you can visit 
+  http://disney.go.com/wreck-it-ralph/
