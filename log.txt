@@ -1329,3 +1329,35 @@ If I am wrong dont blame me, I have a guy and weather.service.msn.com. You may h
          Temperature: 86
             Humidity: 52
         Current Wind: 3 mph Southeast
+-------- Log Entry --------
+Thu Aug 03 2017 18:17:01 GMT-0400 (Eastern Daylight Time)
+User used getTweets()
+Tweet 1: At Sat Jul 29 20:42:30 +0000 2017 you tweeted "19"
+Tweet 2: At Sat Jul 29 20:42:27 +0000 2017 you tweeted "18"
+Tweet 3: At Sat Jul 29 20:41:45 +0000 2017 you tweeted "17"
+Tweet 4: At Sat Jul 29 20:41:39 +0000 2017 you tweeted "16"
+Tweet 6: At Sat Jul 29 20:41:34 +0000 2017 you tweeted "14"
+Tweet 7: At Sat Jul 29 20:41:32 +0000 2017 you tweeted "13"
+Tweet 8: At Sat Jul 29 20:41:29 +0000 2017 you tweeted "12"
+Tweet 9: At Sat Jul 29 20:41:27 +0000 2017 you tweeted "11"
+Tweet 10: At Sat Jul 29 20:41:24 +0000 2017 you tweeted "10"
+Tweet 11: At Sat Jul 29 20:41:21 +0000 2017 you tweeted "9"
+Tweet 12: At Sat Jul 29 20:41:19 +0000 2017 you tweeted "8"
+Tweet 13: At Sat Jul 29 20:41:11 +0000 2017 you tweeted "7"
+Tweet 14: At Sat Jul 29 20:41:06 +0000 2017 you tweeted "6"
+Tweet 15: At Sat Jul 29 20:41:02 +0000 2017 you tweeted "5"
+Tweet 16: At Sat Jul 29 20:40:56 +0000 2017 you tweeted "4"
+Tweet 17: At Sat Jul 29 20:40:54 +0000 2017 you tweeted "3"
+Tweet 18: At Sat Jul 29 20:40:50 +0000 2017 you tweeted "2"
+Tweet 19: At Sat Jul 29 20:40:43 +0000 2017 you tweeted "1"
+Tweet 5: At Sat Jul 29 20:41:37 +0000 2017 you tweeted "15"
+Tweet 20: At Sat Jul 29 00:36:11 +0000 2017 you tweeted "Welcome to my LIRI"
+-------- Log Entry --------
+Thu Aug 03 2017 18:17:11 GMT-0400 (Eastern Daylight Time)
+User used getWeather() searching CHarlotte nc
+If I am wrong dont blame me, I have a guy and weather.service.msn.com. You may have heard of him, his name is Ehpeaeye.
+  Anyways, he told me that in Charlotte, NC, they checked the weather there at 17:50:00 their time and here is what they got.
+    The current weather is :
+         Temperature: 88
+            Humidity: 43
+        Current Wind: 3 mph South
